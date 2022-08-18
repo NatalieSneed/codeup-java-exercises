@@ -1,2 +1,4 @@
-package arrays;public class ServerNameGenerator {
+package arrays;
+
+public class ServerNameGenerator {
 }
