@@ -1,34 +1,29 @@
-package arrays;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
-public class ArraysExercises {
-    public static void main(String[] args) {
-//        int[] numbers = {1, 2, 3, 4, 5};
-//        Arrays.toString(array) returns a copy of the given array w/ the specified length
-//        System.out.println(Arrays.toString(numbers));
+// public class ArraysExercises {
+//     public static void main(String[] args) {
+// //create an array that holds 3 Person objects.
+//         Person[] persons = new Person[3];
+//         persons[0] = new Person("Fred");
+//         persons[1] = new Person("Barney");
+//         persons[2] = new Person("Wilma");
 
-//        Create an array that holds 3 Person objects. Assign a new instance of the Person class to each element. Iterate through the array and print out the name of each person in the array.
-
-//         Person [] people = new Person [];
-//            for(Person person : people){
-//                System.out.println(person.getName());
-//            }
-//        }
-        Person[] people = new Person[3];
-        people[0] = new Person("John");
-        people[1] = new Person("Jane");
-        people[2] = new Person("Joe");
-        printNames(people);
-    }
-
-    public static void printNames(Person[] person) {
-        for (Person person : persons) {
-            System.out.println(person.getName());
-        }
-        addPerson(person, new Person("Venus "));
-
-    }
-        System.out.println(person.getName());
-    }
-
+// //        iterate through the array & print out the name of each person in the array
+//         for (Person person : persons){
+//             System.out.println(person.getName());
+//         }
+// //  create a method to addPerson.
+// //            1. accept an array of Person objects & single person object
+//         addPerson(persons, new Person("Betty"));
+//     }
+// //            2. return an array length is 1> the passed array
+//     public static Person[] addPerson(Person[] persons, Person person){
+//         Person[] newPersons = new Person[persons.length + 1];
+//         for (int i = 0; i < persons.length; i++){
+//             newPersons[i] = persons[i];
+//         }
+//         newPersons[newPersons.length - 1] = person;
+//         return newPersons;
+//     }
+// }
