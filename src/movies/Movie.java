@@ -23,4 +23,12 @@ package movies;
         public void setCategory(String iCategory) {
             this.category = iCategory;
         }
+        @Override
+        public String toString() {
+            return this.name + " (" + this.category + ")";
+        }
+        public static void main(String[]args) {
+
+
+        }
 }

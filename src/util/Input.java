@@ -17,4 +17,9 @@ public class Input {
         System.out.println(prompt);
         return this.scanner.nextLine();
     }
+
+    public int getInt(String s) {
+        System.out.println(s);
+        return this.scanner.nextInt();
+    }
 }
