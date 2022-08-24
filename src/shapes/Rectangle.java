@@ -14,24 +14,23 @@ public Rectangle(int l, int w) {
     System.out.println(length);
         this.width = w;
     }
+
+    @Override
+    public void setLength(int length) {
+
+    }
+
+    @Override
+    public void setWidth(int width) {
+
+    }
 //create a getArea method.
 
-    public double getArea() {
-        return this.length * this.width;
-    }
-//  create a getPerimeter method.
-    public double getPerimeter() {
-        return 2 * (this.length + this.width);
-    }
-//Interfaces and Abstract Classes
     @Override
-    public double getPerimeter() {
-        return 0;
+    public void Rectangle(int side, int side1) {
+
     }
-    @Override
-    public double getArea() {
-        return 0;
-    }
+
 
 
 }
