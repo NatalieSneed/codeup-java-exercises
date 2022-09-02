@@ -15,6 +15,14 @@ public Rectangle(int l, int w) {
         this.width = w;
     }
 
+    public Rectangle(int l) {
+
+    }
+
+    public Rectangle() {
+
+    }
+
     @Override
     public void setLength(int length) {
 

@@ -64,8 +64,8 @@ public class MoviesApplication {
     }
 
     private static void viewMoviesInCategory(String animated) {
-        Movie[] moviesInCategory = findAll(movies, movie -> movie.getCategory().equals(animated));
-        System.out.println(Arrays.toString(moviesInCategory));
+//        Movie[] moviesInCategory = findAll(movies, movie -> movie.getCategory().equals(animated));
+//        System.out.println(Arrays.toString(moviesInCategory));
     }
 
     private static void viewAllMovies() {
@@ -80,7 +80,7 @@ public class MoviesApplication {
         String name = input.getString("Enter the name of the movie: ");
         String category = input.getString("Enter the category of the movie: ");
         Movie movie = new Movie(name, category);
-        MoviesArray.add(movie);
+//        MoviesArray.add(movie);
     }
 
 }

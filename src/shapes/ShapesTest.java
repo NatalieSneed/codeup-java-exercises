@@ -4,7 +4,8 @@ public class ShapesTest {
     public static void main(String[] args) {
 //        with a main method. Inside the main method.
 //        create a variable of the type Rectangle named box1 and assign it a new instance of the Rectangle class with a width of 4 and a length of 5
-        Rectangle box1 = new Rectangle();
+        Rectangle box1 = new Rectangle(4, 5);
+        box1 = new Rectangle();
         box1.Rectangle(4, 5);
 
 //        verify that the getPerimeter and getArea methods return 18 and 20, respectively.
